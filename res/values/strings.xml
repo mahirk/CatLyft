@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CatLyft</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home">CatLyft</string>
+    <string name="Iwac">I Want a Cat</string>
+     <string name="Ihac">I Have a Cat</string>
+       <string name="cc">Meow!</string>
+     <string name="cr">Review Me!</string>
+      <string name="cl">See me?</string>
+        <string name="c1">Sniggles</string>
+     <string name="c2">Kitty</string>
+      <string name="c3">ButterCup</string>
+                       
+        
+</resources>

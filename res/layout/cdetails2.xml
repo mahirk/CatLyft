@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CatDetails1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/onepawcat" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Kitty"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/onepawreview" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+   <TextView
+      android:id="@+id/textView2"
+      android:layout_width="260dp"
+      android:layout_height="wrap_content"
+      android:layout_margin="30dp"
+      android:layout_weight="0.75"
+      android:text="Awww... isnt da kity so pwecious?
+He just loooooves it when I hold him lik this. You can do it to!"
+android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/icanhaz"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/my_shape"
+        android:text="I can haz Kitty?" />
+
+</LinearLayout>

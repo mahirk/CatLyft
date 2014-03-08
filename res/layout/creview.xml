@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|left|right"
+    android:orientation="vertical"
+    tools:context=".CatList" >
+
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Rate your previous CLyfts!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:typeface="monospace" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="114dp"
+            android:layout_height="114dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/reviewcat" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Fuzzy"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/rate01"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/onewhitepaw" />
+
+                <ImageView
+                    android:id="@+id/rate02"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/onewhitepaw" />
+
+                <ImageView
+                    android:id="@+id/rate03"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/onewhitepaw" />
+
+                <ImageView
+                    android:id="@+id/rate04"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/onewhitepaw" />
+
+                <ImageView
+                    android:id="@+id/rate05"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/onewhitepaw" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Comments?"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/my_shape"
+            android:text="Submit" />
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/my_shape"
+            android:text="Back" />
+
+    </LinearLayout>
+
+</LinearLayout>
